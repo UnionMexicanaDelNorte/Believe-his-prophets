@@ -30,7 +30,15 @@ public String textoGlobal;
         if (id == R.id.compartir) {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/html");
-            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT,textoGlobal.substring(0,100)+ "... https://play.google.com/store/apps/details?id=creed.sus.profetas");
+            if(textoGlobal.length()>100)
+            {
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT,textoGlobal.substring(0,100)+ "... https://play.google.com/store/apps/details?id=creed.sus.profetas");
+            }
+            else
+            {
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, textoGlobal + "... https://play.google.com/store/apps/details?id=creed.sus.profetas");
+            }
+
             startActivity(Intent.createChooser(sharingIntent, "Compartir"));
             return true;
         }

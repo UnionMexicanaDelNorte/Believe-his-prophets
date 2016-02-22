@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "15q-m3-4bw"; */
+"15q-m3-4bw.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "1vw-YT-LNv"; */
+"1vw-YT-LNv.title" = "Item";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "507-Cg-7PP"; */
+"507-Cg-7PP.text" = "A";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6f2-PP-mQk"; */
+"6f2-PP-mQk.text" = "Label";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "A4Z-93-c47"; */
+"A4Z-93-c47.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UINavigationItem"; title = "Opciones"; ObjectID = "Cwq-48-lj4"; */
+"Cwq-48-lj4.title" = "Opciones";
+
+/* Class = "UITabBarItem"; title = "French"; ObjectID = "EMl-8h-f4v"; */
+"EMl-8h-f4v.title" = "French";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "I0B-M8-lwn"; */
+"I0B-M8-lwn.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "Itj-QY-Esg"; */
+"Itj-QY-Esg.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "JhR-AC-rSw"; */
+"JhR-AC-rSw.title" = "Item 2";
+
+/* Class = "UILabel"; text = "¿Cada cuantos segundos quieres que se mueva el texto?"; ObjectID = "PmU-8B-PeX"; */
+"PmU-8B-PeX.text" = "¿Cada cuantos segundos quieres que se mueva el texto?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QZV-yQ-bnf"; */
+"QZV-yQ-bnf.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "Ran-1l-jfM"; */
+"Ran-1l-jfM.title" = "Root View Controller";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SUG-2O-Kft"; */
+"SUG-2O-Kft.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Configuración"; ObjectID = "V9S-SR-ZEA"; */
+"V9S-SR-ZEA.title" = "Configuración";
+
+/* Class = "UILabel"; text = "¿Cuántas palabras lees cada segundos?"; ObjectID = "VLj-uX-ig4"; */
+"VLj-uX-ig4.text" = "¿Cuántas palabras lees cada segundos?";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Yxf-5i-Ibx"; */
+"Yxf-5i-Ibx.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "aBw-8X-rbd"; */
+"aBw-8X-rbd.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bc9-dR-AK7"; */
+"bc9-dR-AK7.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Español"; ObjectID = "c2A-s2-DhP"; */
+"c2A-s2-DhP.title" = "Español";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "eGT-UA-kgB"; */
+"eGT-UA-kgB.title" = "Item 1";
+
+/* Class = "UILabel"; text = "A"; ObjectID = "m46-sK-GDa"; */
+"m46-sK-GDa.text" = "A";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ops-QN-jUq"; */
+"ops-QN-jUq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Así se verá el texto:"; ObjectID = "pir-yf-64W"; */
+"pir-yf-64W.text" = "Así se verá el texto:";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "q2t-x9-TwA"; */
+"q2t-x9-TwA.title" = "Item";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "sIK-q7-W4U"; */
+"sIK-q7-W4U.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "xQX-hK-18O"; */
+"xQX-hK-18O.text" = "Subtitle";
+
+/* Class = "UITabBarItem"; title = "English"; ObjectID = "xpc-L2-s2k"; */
+"xpc-L2-s2k.title" = "English";
+
+/* Class = "UINavigationItem"; title = "Creed"; ObjectID = "yiv-Og-OMx"; */
+"yiv-Og-OMx.title" = "Creed";

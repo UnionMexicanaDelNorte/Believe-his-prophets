@@ -24,5 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/datePicker"
         android:scaleType="fitXY"
+        android:textIsSelectable="true"
+        android:scrollbars = "vertical"
         android:src="@drawable/icono" />
 </RelativeLayout>

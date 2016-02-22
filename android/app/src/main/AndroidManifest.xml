@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="creed.sus.profetas" >
+    package="creed.sus.profetas">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -18,11 +19,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,7 +37,7 @@
 
         <receiver
             android:name=".GcmBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
@@ -40,13 +45,31 @@
             </intent-filter>
         </receiver>
 
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <service android:name=".GcmMessageHandler" />
 
-        <activity android:name=".TextoActivity" >
+        <activity android:name=".TextoActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="creed.sus.profetas.MainActivity" />
         </activity>
+        <activity
+            android:name=".LecturaActivity"
+            android:label="@string/title_activity_lectura"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListaComentariosActivity"
+            android:label="@string/title_activity_lista_comentarios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EscribeComentarioActivity"
+            android:label="@string/title_activity_escribe_comentario"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -93,7 +93,7 @@
         {
             
             UIAlertController * view=   [UIAlertController
-                                         alertControllerWithTitle:@"Creed a sus profetas"
+                                         alertControllerWithTitle:@"Creed en sus profetas"
                                          message:@"No existe todavia la lectura para ese día, favor de esperar la actualización."
                                          preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction* cancel = [UIAlertAction
@@ -129,14 +129,12 @@
 
 
 #pragma mark - Navigation
-
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"vamosALeer"])
     {
         LecturaViewController *lectura = [segue destinationViewController];
         [lectura setTexto:texto];
-        
     }
 }
 

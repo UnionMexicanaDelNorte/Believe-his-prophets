@@ -1,15 +1,20 @@
 package creed.sus.profetas;
 
 import android.app.AlertDialog;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.os.Message;
 import java.io.UnsupportedEncodingException;
 import android.support.design.widget.AppBarLayout;
@@ -21,21 +26,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.util.Xml;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.DatePicker;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
+
 import org.json.JSONObject;
 
 import java.io.BufferedInputStream;
@@ -53,6 +58,23 @@ public class MainActivity extends AppCompatActivity {
 
 
     public MainActivity reference;
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        // Logs 'install' and 'app activate' App Events.
+        AppEventsLogger.activateApp(this);
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        // Logs 'app deactivate' App Event.
+        AppEventsLogger.deactivateApp(this);
+    }
 
     private boolean isNetworkAvailable() {
         ConnectivityManager connectivityManager
@@ -93,12 +115,56 @@ public class MainActivity extends AppCompatActivity {
 
         return null;
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        TabFragment2.callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        //tabLayout.newTab().setIcon()
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.bible) );
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.settings));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.fav));
+        tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.coment));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final creed.sus.profetas.PagerAdapter adapter = new creed.sus.profetas.PagerAdapter
+                (getSupportFragmentManager(), tabLayout.getTabCount());
+        viewPager.setAdapter(adapter);
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
+
+
+
         reference = this;
 
         SharedPreferences.Editor editor = getSharedPreferences("creedsusprofetas", MODE_PRIVATE).edit();
@@ -107,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
 
         final DatePicker datePicker = (DatePicker)findViewById(R.id.datePicker);
 
-        ImageButton myButton = (ImageButton)findViewById(R.id.vesAlaLectura);
+/*        ImageButton myButton = (ImageButton)findViewById(R.id.vesAlaLectura);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -173,22 +239,32 @@ public class MainActivity extends AppCompatActivity {
                     StringBuilder total = new StringBuilder();
 
                     try {
-                        DefaultHttpClient httpclient = new DefaultHttpClient();
-                        HttpGet httppost = new HttpGet("http://unionnorte.org/bhp/l/" + nombreDelArchivo);
-                        HttpResponse response = httpclient.execute(httppost);
-                        HttpEntity ht = response.getEntity();
 
-                        BufferedHttpEntity buf = new BufferedHttpEntity(ht);
+                        URL url = new URL("http://unionnorte.org/bhp/l/" + nombreDelArchivo);
+                        HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
+                        int responseCode = httpConn.getResponseCode();
+                        InputStream inputStream = httpConn.getInputStream();
+                        BufferedReader r = new BufferedReader(new InputStreamReader(inputStream));
 
-                        InputStream is = buf.getContent();
+                        // always check HTTP response code first
+                        if (responseCode == HttpURLConnection.HTTP_OK) {
 
+                            String line;
+                            while ((line = r.readLine()) != null) {
+                                total.append(line + "\n");
+                            }
 
-                        BufferedReader r = new BufferedReader(new InputStreamReader(is));
+                            //int bytesRead = -1;
+                            // byte[] buffer = new byte[BUFFER_SIZE];
+                            // while ((bytesRead = inputStream.read(buffer)) != -1) {
+                            //       outputStream.write(buffer, 0, bytesRead);
+                            //}
 
-                        String line;
-                        while ((line = r.readLine()) != null) {
-                            total.append(line + "\n");
+                            // outputStream.close();
                         }
+
+                        inputStream.close();
+
 
                     } catch (IOException e) {
                         // mostrar el error al usuario o en un log
@@ -207,7 +283,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+*/
 
         SharedPreferences prefs = getSharedPreferences("creedsusprofetas", MODE_PRIVATE);
         int primeraVez = prefs.getInt("primeraVez", 0);
@@ -260,8 +336,8 @@ public class MainActivity extends AppCompatActivity {
 
                 } else {
                     new AlertDialog.Builder(reference)
-                            .setTitle("Internet error")
-                            .setMessage("No esta disponible una conexión a internet, por favor, conectese a internet para continuar.")
+                            .setTitle( getString(R.string.internet_error))
+                            .setMessage(getString(R.string.internet_error_message))
                             .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
                                     // continue with delete
@@ -276,70 +352,40 @@ public class MainActivity extends AppCompatActivity {
     }
     private void hazPost(final String argumento2)
     {
-        Toast.makeText(getBaseContext(),
-                "Please wait, connecting to server.",
-                Toast.LENGTH_SHORT).show();
-
-
-        // Create Inner Thread Class
         Thread background = new Thread(new Runnable() {
-
-
-            // After call for background.start this run method call
             public void run() {
                 try {
-
                     String  urlString = new String("http://sunplus.redirectme.net:90/?accion=6&argumento1="+argumento2+"&argumento2=2");
-                    Log.i("GCM",urlString);
                     URL url = new URL(urlString);
                     HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
-
                     try {
                         InputStream in = new BufferedInputStream(urlConnection.getInputStream());
-                        // Acciones a realizar con el flujo de datos
                         BufferedReader streamReader = new BufferedReader(new InputStreamReader(in, "UTF-8"));
                         StringBuilder responseStrBuilder = new StringBuilder();
-
                         String inputStr;
                         while ((inputStr = streamReader.readLine()) != null)
                             responseStrBuilder.append(inputStr);
                         JSONObject test = new JSONObject(responseStrBuilder.toString());
-
                         String success = test.getString("success");
-                        if(success.equals("1"))
-                        {
+                        if(success.equals("1")) {
                             SharedPreferences.Editor editor = getSharedPreferences("creedsusprofetas", MODE_PRIVATE).edit();
                             editor.putInt("primeraVez",1);
+                            editor.putInt("font",12);
+                            editor.putInt("segundos",0);
+                            editor.putInt("palabras",20);
                             editor.commit();
                         }
-
-                     /*   reference.runOnUiThread(new Runnable() {
-                            public void run() {
-
-                            }
-                        });
-*/
-
-
                     }
                     catch (Exception e)
                     {
-                        Log.i("Animation", e.toString());
-
                     }
                     finally {
                         urlConnection.disconnect();
                     }
-
-
                 } catch (Throwable t) {
-                    // just end the background thread
-                    Log.i("Animation", "Thread  exception " + t);
-                }
+                    }
             }
-
             private void threadMsg(String msg) {
-
                 if (!msg.equals(null) && !msg.equals("")) {
                     Message msgObj = handler.obtainMessage();
                     Bundle b = new Bundle();
@@ -348,39 +394,21 @@ public class MainActivity extends AppCompatActivity {
                     handler.sendMessage(msgObj);
                 }
             }
-
-            // Define the Handler that receives messages from the thread and update the progress
             private final Handler handler = new Handler() {
 
                 public void handleMessage(Message msg) {
-
                     String aResponse = msg.getData().getString("message");
-
                     if ((null != aResponse)) {
-
-                        // ALERT MESSAGE
-                        Toast.makeText(
-                                getBaseContext(),
-                                "Server Response: "+aResponse,
-                                Toast.LENGTH_SHORT).show();
                     }
                     else
                     {
-
-                        // ALERT MESSAGE
-                        Toast.makeText(
-                                getBaseContext(),
-                                "Not Got Response From Server.",
-                                Toast.LENGTH_SHORT).show();
                     }
-
                 }
             };
-
         });
-        // Start Thread
         background.start();
     }
 
 
 }
+
