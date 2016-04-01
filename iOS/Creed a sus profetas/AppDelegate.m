@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "Reachability.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
+
 @interface AppDelegate ()
 @property (nonatomic) Reachability *internetReachability;
 
@@ -133,7 +134,6 @@
     {
         [self configureTextField:reachability];
     }
-    
 }
 
 
@@ -141,8 +141,6 @@
 {
     NetworkStatus netStatus = [reachability currentReachabilityStatus];
     BOOL connectionRequired = [reachability connectionRequired];
-    //   NSString* statusString = @"";
-    
     switch (netStatus)
     {
         case NotReachable:        {
@@ -163,7 +161,6 @@
             break;
         }
     }
-    
     if (connectionRequired)
     {
         // NSString *connectionRequiredFormatString = NSLocalizedString(@"%@, Connection Required", @"Concatenation of status string with connection requirement");

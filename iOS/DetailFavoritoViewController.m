@@ -8,6 +8,7 @@
 
 #import "DetailFavoritoViewController.h"
 #import "ImagenViewController.h"
+
 @interface DetailFavoritoViewController ()
 
 @end

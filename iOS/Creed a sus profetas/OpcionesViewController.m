@@ -9,13 +9,42 @@
 #import "OpcionesViewController.h"
 #import "AppDelegate.h"
 #import "LoadingView.h"
-
+#import "LanguageManager.h"
 @interface OpcionesViewController ()
 
 @end
 
 @implementation OpcionesViewController
-@synthesize slider=_slider,prueba=_prueba,segundosLabel=_segundosLabel,segundosSlider=_segundosSlider,palabrasLabel=_palabrasLabel,palabrasSlider=_palabrasSlider,tituloSegundos=_tituloSegundos,segundosAuxLabel=_segundosAuxLabel,loginFacebook=_loginFacebook,conectadoComo=_conectadoComo;
+@synthesize slider=_slider,prueba=_prueba,segundosLabel=_segundosLabel,segundosSlider=_segundosSlider,palabrasLabel=_palabrasLabel,palabrasSlider=_palabrasSlider,tituloSegundos=_tituloSegundos,segundosAuxLabel=_segundosAuxLabel,loginFacebook=_loginFacebook,conectadoComo=_conectadoComo,segmented=_segmented;
+
+
+- (void)reloadRootViewController
+{
+    AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+    NSString *storyboardName = @"Main";
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+    delegate.window.rootViewController = [storyboard instantiateInitialViewController];
+}
+-(void)SegmentChangeViewValueChanged:(UISegmentedControl *)SControl
+{
+    if(_segmented.selectedSegmentIndex==0)//spanish
+    {
+        [LanguageManager saveLanguageByIndex:0];
+    }
+    else
+    {
+        if(_segmented.selectedSegmentIndex==1)//english
+        {
+            [LanguageManager saveLanguageByIndex:1];
+        }
+        else
+        {
+            [LanguageManager saveLanguageByIndex:2];
+        }
+    }
+    [self reloadRootViewController];
+}
+
 
 -(void)viewWillAppear:(BOOL)animated
 {
@@ -156,8 +185,7 @@
                       
                       AppDelegate *app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
                       
-                      
-                      
+
                       [_loginFacebook setTitle:NSLocalizedString(@"desconectar", nil) forState:UIControlStateNormal];
                       
                       
@@ -232,7 +260,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     idioma =0;
-    
+    [_segmented addTarget:self action:@selector(SegmentChangeViewValueChanged:) forControlEvents:UIControlEventValueChanged];
     //FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
     // Optional: Place the button in the center of your view.
     //loginButton.center = self.view.center;
@@ -240,7 +268,7 @@
     //loginButton.readPermissions = @[@"public_profile"];
     //[loginButton setTitle:NSLocalizedString(@"conectar", nil) forState:UIControlStateNormal];
     //[self.view addSubview:loginButton];
-       [_loginFacebook setTitle:NSLocalizedString(@"conectar", nil) forState:UIControlStateNormal];
+    [_loginFacebook setTitle:NSLocalizedString(@"conectar", nil) forState:UIControlStateNormal];
     
     
    

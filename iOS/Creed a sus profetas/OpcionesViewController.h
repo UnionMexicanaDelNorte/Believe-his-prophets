@@ -22,7 +22,7 @@
 -(IBAction)loginDesloginFacebook:(id)sender;
 @property (nonatomic,strong) IBOutlet UILabel *tituloSegundos;
 @property (nonatomic,strong) IBOutlet UIButton *loginFacebook;
-
+@property (nonatomic,strong) IBOutlet UISegmentedControl *segmented;
 @property (nonatomic,strong) IBOutlet UISlider *segundosSlider;
 @property (nonatomic,strong) IBOutlet UILabel *segundosLabel;
 @property (nonatomic,strong) IBOutlet UILabel *conectadoComo;

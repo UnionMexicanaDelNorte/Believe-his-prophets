@@ -8,6 +8,7 @@
 
 #import "LecturaViewController.h"
 #import "AppDelegate.h"
+
 @interface LecturaViewController ()
 
 @end
@@ -29,7 +30,7 @@
 
 #define IDIOM    UI_USER_INTERFACE_IDIOM()
 #define IPAD     UIUserInterfaceIdiomPad
-
+//#define USE_ON_FLY_LOCALIZATION 1
 #pragma mark - Fetched results controller
 
 - (NSFetchedResultsController *)fetchedResultsController

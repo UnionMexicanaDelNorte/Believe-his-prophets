@@ -9,6 +9,7 @@
 #import "SpanishTableViewController.h"
 #import "LecturaViewController.h"
 #import "BHPTableViewCell.h"
+
 @interface SpanishTableViewController ()
 
 @end
@@ -33,6 +34,7 @@
     int mes, anio, dia;
     self.navigationController.tabBarItem.title=NSLocalizedString(@"Idioma", nil);
     idioma =0;
+    //NSString *aver = NSLocalizedString(@"Idioma", nil);
     if([NSLocalizedString(@"Idioma", nil) isEqualToString:@"Español"])
     {
         idioma=1;//español
@@ -263,10 +265,10 @@
                 
                 //configura titulo
                 
-            }
+            }//for dia
         }
     }
-
+    [self.tableView reloadData];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
@@ -275,6 +277,10 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+  //  LocalizationSetLanguage(@"Spanish");
+    
     hastaCuantos=31;
 [self.tableView registerClass:[BHPTableViewCell class] forCellReuseIdentifier:@"BHPTableViewCell"];
     UINib *nib = [UINib nibWithNibName:@"BHPTableViewCell" bundle:[NSBundle mainBundle]];

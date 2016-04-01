@@ -39,6 +39,114 @@
 		090AD28F1C6709EB006625AF /* ruibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 090AD2811C6709EB006625AF /* ruibold.otf */; };
 		090AD2921C6848E2006625AF /* febrero3y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 090AD2901C6848E2006625AF /* febrero3y2016_fr.txt */; };
 		090AD2931C6848E2006625AF /* febrero4y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 090AD2911C6848E2006625AF /* febrero4y2016_fr.txt */; };
+		092477831C85E43A006E0447 /* abril1y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477191C85E439006E0447 /* abril1y2016_en.txt */; };
+		092477841C85E43A006E0447 /* abril1y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771A1C85E439006E0447 /* abril1y2016_fr.txt */; };
+		092477851C85E43A006E0447 /* abril1y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771B1C85E439006E0447 /* abril1y2016.txt */; };
+		092477861C85E43A006E0447 /* abril2y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771C1C85E439006E0447 /* abril2y2016_en.txt */; };
+		092477871C85E43A006E0447 /* abril2y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771D1C85E439006E0447 /* abril2y2016_fr.txt */; };
+		092477881C85E43A006E0447 /* abril2y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771E1C85E439006E0447 /* abril2y2016.txt */; };
+		092477891C85E43A006E0447 /* febrero28y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924771F1C85E439006E0447 /* febrero28y2016_en.txt */; };
+		0924778A1C85E43A006E0447 /* febrero28y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477201C85E439006E0447 /* febrero28y2016_fr.txt */; };
+		0924778B1C85E43A006E0447 /* febrero28y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477211C85E439006E0447 /* febrero28y2016.txt */; };
+		0924778C1C85E43A006E0447 /* febrero29y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477221C85E439006E0447 /* febrero29y2016_en.txt */; };
+		0924778D1C85E43A006E0447 /* febrero29y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477231C85E439006E0447 /* febrero29y2016_fr.txt */; };
+		0924778E1C85E43A006E0447 /* febrero29y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477241C85E439006E0447 /* febrero29y2016.txt */; };
+		0924778F1C85E43A006E0447 /* marzo1y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477251C85E439006E0447 /* marzo1y2016_en.txt */; };
+		092477901C85E43A006E0447 /* marzo1y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477261C85E439006E0447 /* marzo1y2016_fr.txt */; };
+		092477911C85E43A006E0447 /* marzo1y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477271C85E439006E0447 /* marzo1y2016.txt */; };
+		092477921C85E43A006E0447 /* marzo2y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477281C85E439006E0447 /* marzo2y2016_en.txt */; };
+		092477931C85E43A006E0447 /* marzo2y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477291C85E439006E0447 /* marzo2y2016_fr.txt */; };
+		092477941C85E43A006E0447 /* marzo2y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772A1C85E439006E0447 /* marzo2y2016.txt */; };
+		092477951C85E43A006E0447 /* marzo3y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772B1C85E439006E0447 /* marzo3y2016_en.txt */; };
+		092477961C85E43A006E0447 /* marzo3y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772C1C85E439006E0447 /* marzo3y2016_fr.txt */; };
+		092477971C85E43A006E0447 /* marzo3y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772D1C85E439006E0447 /* marzo3y2016.txt */; };
+		092477981C85E43A006E0447 /* marzo4y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772E1C85E439006E0447 /* marzo4y2016_en.txt */; };
+		092477991C85E43A006E0447 /* marzo4y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924772F1C85E439006E0447 /* marzo4y2016_fr.txt */; };
+		0924779A1C85E43A006E0447 /* marzo4y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477301C85E439006E0447 /* marzo4y2016.txt */; };
+		0924779B1C85E43A006E0447 /* marzo5y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477311C85E439006E0447 /* marzo5y2016_en.txt */; };
+		0924779C1C85E43A006E0447 /* marzo5y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477321C85E439006E0447 /* marzo5y2016_fr.txt */; };
+		0924779D1C85E43A006E0447 /* marzo5y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477331C85E439006E0447 /* marzo5y2016.txt */; };
+		0924779E1C85E43A006E0447 /* marzo6y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477341C85E439006E0447 /* marzo6y2016_en.txt */; };
+		0924779F1C85E43A006E0447 /* marzo6y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477351C85E439006E0447 /* marzo6y2016_fr.txt */; };
+		092477A01C85E43A006E0447 /* marzo6y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477361C85E439006E0447 /* marzo6y2016.txt */; };
+		092477A11C85E43A006E0447 /* marzo7y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477371C85E439006E0447 /* marzo7y2016_en.txt */; };
+		092477A21C85E43A006E0447 /* marzo7y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477381C85E439006E0447 /* marzo7y2016_fr.txt */; };
+		092477A31C85E43A006E0447 /* marzo7y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477391C85E439006E0447 /* marzo7y2016.txt */; };
+		092477A41C85E43A006E0447 /* marzo8y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773A1C85E439006E0447 /* marzo8y2016_en.txt */; };
+		092477A51C85E43A006E0447 /* marzo8y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773B1C85E439006E0447 /* marzo8y2016_fr.txt */; };
+		092477A61C85E43A006E0447 /* marzo8y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773C1C85E439006E0447 /* marzo8y2016.txt */; };
+		092477A71C85E43A006E0447 /* marzo9y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773D1C85E439006E0447 /* marzo9y2016_en.txt */; };
+		092477A81C85E43A006E0447 /* marzo9y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773E1C85E439006E0447 /* marzo9y2016_fr.txt */; };
+		092477A91C85E43A006E0447 /* marzo9y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924773F1C85E439006E0447 /* marzo9y2016.txt */; };
+		092477AA1C85E43A006E0447 /* marzo10y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477401C85E439006E0447 /* marzo10y2016_en.txt */; };
+		092477AB1C85E43A006E0447 /* marzo10y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477411C85E439006E0447 /* marzo10y2016_fr.txt */; };
+		092477AC1C85E43A006E0447 /* marzo10y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477421C85E439006E0447 /* marzo10y2016.txt */; };
+		092477AD1C85E43A006E0447 /* marzo11y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477431C85E439006E0447 /* marzo11y2016_en.txt */; };
+		092477AE1C85E43A006E0447 /* marzo11y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477441C85E439006E0447 /* marzo11y2016_fr.txt */; };
+		092477AF1C85E43A006E0447 /* marzo11y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477451C85E439006E0447 /* marzo11y2016.txt */; };
+		092477B01C85E43A006E0447 /* marzo12y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477461C85E439006E0447 /* marzo12y2016_en.txt */; };
+		092477B11C85E43A006E0447 /* marzo12y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477471C85E439006E0447 /* marzo12y2016_fr.txt */; };
+		092477B21C85E43A006E0447 /* marzo12y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477481C85E439006E0447 /* marzo12y2016.txt */; };
+		092477B31C85E43A006E0447 /* marzo13y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477491C85E439006E0447 /* marzo13y2016_en.txt */; };
+		092477B41C85E43A006E0447 /* marzo13y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774A1C85E439006E0447 /* marzo13y2016_fr.txt */; };
+		092477B51C85E43A006E0447 /* marzo13y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774B1C85E439006E0447 /* marzo13y2016.txt */; };
+		092477B61C85E43A006E0447 /* marzo14y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774C1C85E439006E0447 /* marzo14y2016_en.txt */; };
+		092477B71C85E43A006E0447 /* marzo14y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774D1C85E439006E0447 /* marzo14y2016_fr.txt */; };
+		092477B81C85E43A006E0447 /* marzo14y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774E1C85E439006E0447 /* marzo14y2016.txt */; };
+		092477B91C85E43A006E0447 /* marzo15y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924774F1C85E439006E0447 /* marzo15y2016_en.txt */; };
+		092477BA1C85E43A006E0447 /* marzo15y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477501C85E439006E0447 /* marzo15y2016_fr.txt */; };
+		092477BB1C85E43A006E0447 /* marzo15y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477511C85E439006E0447 /* marzo15y2016.txt */; };
+		092477BC1C85E43A006E0447 /* marzo16y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477521C85E439006E0447 /* marzo16y2016_en.txt */; };
+		092477BD1C85E43A006E0447 /* marzo16y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477531C85E439006E0447 /* marzo16y2016_fr.txt */; };
+		092477BE1C85E43A006E0447 /* marzo16y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477541C85E439006E0447 /* marzo16y2016.txt */; };
+		092477BF1C85E43A006E0447 /* marzo17y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477551C85E439006E0447 /* marzo17y2016_en.txt */; };
+		092477C01C85E43A006E0447 /* marzo17y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477561C85E439006E0447 /* marzo17y2016_fr.txt */; };
+		092477C11C85E43A006E0447 /* marzo17y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477571C85E439006E0447 /* marzo17y2016.txt */; };
+		092477C21C85E43A006E0447 /* marzo18y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477581C85E439006E0447 /* marzo18y2016_en.txt */; };
+		092477C31C85E43A006E0447 /* marzo18y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477591C85E439006E0447 /* marzo18y2016_fr.txt */; };
+		092477C41C85E43A006E0447 /* marzo18y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775A1C85E439006E0447 /* marzo18y2016.txt */; };
+		092477C51C85E43A006E0447 /* marzo19y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775B1C85E439006E0447 /* marzo19y2016_en.txt */; };
+		092477C61C85E43A006E0447 /* marzo19y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775C1C85E439006E0447 /* marzo19y2016_fr.txt */; };
+		092477C71C85E43A006E0447 /* marzo19y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775D1C85E439006E0447 /* marzo19y2016.txt */; };
+		092477C81C85E43A006E0447 /* marzo20y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775E1C85E439006E0447 /* marzo20y2016_en.txt */; };
+		092477C91C85E43A006E0447 /* marzo20y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924775F1C85E439006E0447 /* marzo20y2016_fr.txt */; };
+		092477CA1C85E43A006E0447 /* marzo20y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477601C85E439006E0447 /* marzo20y2016.txt */; };
+		092477CB1C85E43A006E0447 /* marzo21y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477611C85E439006E0447 /* marzo21y2016_en.txt */; };
+		092477CC1C85E43A006E0447 /* marzo21y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477621C85E439006E0447 /* marzo21y2016_fr.txt */; };
+		092477CD1C85E43A006E0447 /* marzo21y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477631C85E439006E0447 /* marzo21y2016.txt */; };
+		092477CE1C85E43A006E0447 /* marzo22y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477641C85E439006E0447 /* marzo22y2016_en.txt */; };
+		092477CF1C85E43A006E0447 /* marzo22y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477651C85E439006E0447 /* marzo22y2016_fr.txt */; };
+		092477D01C85E43A006E0447 /* marzo22y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477661C85E439006E0447 /* marzo22y2016.txt */; };
+		092477D11C85E43A006E0447 /* marzo23y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477671C85E439006E0447 /* marzo23y2016_en.txt */; };
+		092477D21C85E43A006E0447 /* marzo23y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477681C85E439006E0447 /* marzo23y2016_fr.txt */; };
+		092477D31C85E43A006E0447 /* marzo23y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477691C85E439006E0447 /* marzo23y2016.txt */; };
+		092477D41C85E43A006E0447 /* marzo24y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776A1C85E439006E0447 /* marzo24y2016_en.txt */; };
+		092477D51C85E43A006E0447 /* marzo24y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776B1C85E439006E0447 /* marzo24y2016_fr.txt */; };
+		092477D61C85E43A006E0447 /* marzo24y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776C1C85E439006E0447 /* marzo24y2016.txt */; };
+		092477D71C85E43A006E0447 /* marzo25y2016 copia.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776D1C85E439006E0447 /* marzo25y2016 copia.txt */; };
+		092477D81C85E43A006E0447 /* marzo25y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776E1C85E439006E0447 /* marzo25y2016_en.txt */; };
+		092477D91C85E43A006E0447 /* marzo25y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924776F1C85E439006E0447 /* marzo25y2016_fr.txt */; };
+		092477DA1C85E43A006E0447 /* marzo25y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477701C85E439006E0447 /* marzo25y2016.txt */; };
+		092477DB1C85E43A006E0447 /* marzo26y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477711C85E43A006E0447 /* marzo26y2016_en.txt */; };
+		092477DC1C85E43A006E0447 /* marzo26y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477721C85E43A006E0447 /* marzo26y2016_fr.txt */; };
+		092477DD1C85E43A006E0447 /* marzo26y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477731C85E43A006E0447 /* marzo26y2016.txt */; };
+		092477DE1C85E43A006E0447 /* marzo27y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477741C85E43A006E0447 /* marzo27y2016_en.txt */; };
+		092477DF1C85E43A006E0447 /* marzo27y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477751C85E43A006E0447 /* marzo27y2016_fr.txt */; };
+		092477E01C85E43A006E0447 /* marzo27y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477761C85E43A006E0447 /* marzo27y2016.txt */; };
+		092477E11C85E43A006E0447 /* marzo28y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477771C85E43A006E0447 /* marzo28y2016_en.txt */; };
+		092477E21C85E43A006E0447 /* marzo28y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477781C85E43A006E0447 /* marzo28y2016_fr.txt */; };
+		092477E31C85E43A006E0447 /* marzo28y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477791C85E43A006E0447 /* marzo28y2016.txt */; };
+		092477E41C85E43A006E0447 /* marzo29y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777A1C85E43A006E0447 /* marzo29y2016_en.txt */; };
+		092477E51C85E43A006E0447 /* marzo29y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777B1C85E43A006E0447 /* marzo29y2016_fr.txt */; };
+		092477E61C85E43A006E0447 /* marzo29y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777C1C85E43A006E0447 /* marzo29y2016.txt */; };
+		092477E71C85E43A006E0447 /* marzo30y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777D1C85E43A006E0447 /* marzo30y2016_en.txt */; };
+		092477E81C85E43A006E0447 /* marzo30y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777E1C85E43A006E0447 /* marzo30y2016_fr.txt */; };
+		092477E91C85E43A006E0447 /* marzo30y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0924777F1C85E43A006E0447 /* marzo30y2016.txt */; };
+		092477EA1C85E43A006E0447 /* marzo31y2016_en.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477801C85E43A006E0447 /* marzo31y2016_en.txt */; };
+		092477EB1C85E43A006E0447 /* marzo31y2016_fr.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477811C85E43A006E0447 /* marzo31y2016_fr.txt */; };
+		092477EC1C85E43A006E0447 /* marzo31y2016.txt in Resources */ = {isa = PBXBuildFile; fileRef = 092477821C85E43A006E0447 /* marzo31y2016.txt */; };
+		092477F61C8A0FAA006E0447 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 092477F31C8A0FAA006E0447 /* LanguageManager.m */; };
+		092477F71C8A0FAA006E0447 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 092477F51C8A0FAA006E0447 /* NSBundle+Language.m */; };
 		09281DC21B57FC570086FF0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09281DC11B57FC570086FF0F /* main.m */; };
 		09281DC51B57FC570086FF0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09281DC41B57FC570086FF0F /* AppDelegate.m */; };
 		09281DC81B57FC570086FF0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09281DC71B57FC570086FF0F /* ViewController.m */; };
@@ -223,6 +331,118 @@
 		090AD2811C6709EB006625AF /* ruibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ruibold.otf; sourceTree = "<group>"; };
 		090AD2901C6848E2006625AF /* febrero3y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero3y2016_fr.txt; sourceTree = "<group>"; };
 		090AD2911C6848E2006625AF /* febrero4y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero4y2016_fr.txt; sourceTree = "<group>"; };
+		092477191C85E439006E0447 /* abril1y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril1y2016_en.txt; sourceTree = "<group>"; };
+		0924771A1C85E439006E0447 /* abril1y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril1y2016_fr.txt; sourceTree = "<group>"; };
+		0924771B1C85E439006E0447 /* abril1y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril1y2016.txt; sourceTree = "<group>"; };
+		0924771C1C85E439006E0447 /* abril2y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril2y2016_en.txt; sourceTree = "<group>"; };
+		0924771D1C85E439006E0447 /* abril2y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril2y2016_fr.txt; sourceTree = "<group>"; };
+		0924771E1C85E439006E0447 /* abril2y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = abril2y2016.txt; sourceTree = "<group>"; };
+		0924771F1C85E439006E0447 /* febrero28y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero28y2016_en.txt; sourceTree = "<group>"; };
+		092477201C85E439006E0447 /* febrero28y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero28y2016_fr.txt; sourceTree = "<group>"; };
+		092477211C85E439006E0447 /* febrero28y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero28y2016.txt; sourceTree = "<group>"; };
+		092477221C85E439006E0447 /* febrero29y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero29y2016_en.txt; sourceTree = "<group>"; };
+		092477231C85E439006E0447 /* febrero29y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero29y2016_fr.txt; sourceTree = "<group>"; };
+		092477241C85E439006E0447 /* febrero29y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = febrero29y2016.txt; sourceTree = "<group>"; };
+		092477251C85E439006E0447 /* marzo1y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo1y2016_en.txt; sourceTree = "<group>"; };
+		092477261C85E439006E0447 /* marzo1y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo1y2016_fr.txt; sourceTree = "<group>"; };
+		092477271C85E439006E0447 /* marzo1y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo1y2016.txt; sourceTree = "<group>"; };
+		092477281C85E439006E0447 /* marzo2y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo2y2016_en.txt; sourceTree = "<group>"; };
+		092477291C85E439006E0447 /* marzo2y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo2y2016_fr.txt; sourceTree = "<group>"; };
+		0924772A1C85E439006E0447 /* marzo2y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo2y2016.txt; sourceTree = "<group>"; };
+		0924772B1C85E439006E0447 /* marzo3y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo3y2016_en.txt; sourceTree = "<group>"; };
+		0924772C1C85E439006E0447 /* marzo3y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo3y2016_fr.txt; sourceTree = "<group>"; };
+		0924772D1C85E439006E0447 /* marzo3y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo3y2016.txt; sourceTree = "<group>"; };
+		0924772E1C85E439006E0447 /* marzo4y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo4y2016_en.txt; sourceTree = "<group>"; };
+		0924772F1C85E439006E0447 /* marzo4y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo4y2016_fr.txt; sourceTree = "<group>"; };
+		092477301C85E439006E0447 /* marzo4y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo4y2016.txt; sourceTree = "<group>"; };
+		092477311C85E439006E0447 /* marzo5y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo5y2016_en.txt; sourceTree = "<group>"; };
+		092477321C85E439006E0447 /* marzo5y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo5y2016_fr.txt; sourceTree = "<group>"; };
+		092477331C85E439006E0447 /* marzo5y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo5y2016.txt; sourceTree = "<group>"; };
+		092477341C85E439006E0447 /* marzo6y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo6y2016_en.txt; sourceTree = "<group>"; };
+		092477351C85E439006E0447 /* marzo6y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo6y2016_fr.txt; sourceTree = "<group>"; };
+		092477361C85E439006E0447 /* marzo6y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo6y2016.txt; sourceTree = "<group>"; };
+		092477371C85E439006E0447 /* marzo7y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo7y2016_en.txt; sourceTree = "<group>"; };
+		092477381C85E439006E0447 /* marzo7y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo7y2016_fr.txt; sourceTree = "<group>"; };
+		092477391C85E439006E0447 /* marzo7y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo7y2016.txt; sourceTree = "<group>"; };
+		0924773A1C85E439006E0447 /* marzo8y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo8y2016_en.txt; sourceTree = "<group>"; };
+		0924773B1C85E439006E0447 /* marzo8y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo8y2016_fr.txt; sourceTree = "<group>"; };
+		0924773C1C85E439006E0447 /* marzo8y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo8y2016.txt; sourceTree = "<group>"; };
+		0924773D1C85E439006E0447 /* marzo9y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo9y2016_en.txt; sourceTree = "<group>"; };
+		0924773E1C85E439006E0447 /* marzo9y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo9y2016_fr.txt; sourceTree = "<group>"; };
+		0924773F1C85E439006E0447 /* marzo9y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo9y2016.txt; sourceTree = "<group>"; };
+		092477401C85E439006E0447 /* marzo10y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo10y2016_en.txt; sourceTree = "<group>"; };
+		092477411C85E439006E0447 /* marzo10y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo10y2016_fr.txt; sourceTree = "<group>"; };
+		092477421C85E439006E0447 /* marzo10y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo10y2016.txt; sourceTree = "<group>"; };
+		092477431C85E439006E0447 /* marzo11y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo11y2016_en.txt; sourceTree = "<group>"; };
+		092477441C85E439006E0447 /* marzo11y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo11y2016_fr.txt; sourceTree = "<group>"; };
+		092477451C85E439006E0447 /* marzo11y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo11y2016.txt; sourceTree = "<group>"; };
+		092477461C85E439006E0447 /* marzo12y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo12y2016_en.txt; sourceTree = "<group>"; };
+		092477471C85E439006E0447 /* marzo12y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo12y2016_fr.txt; sourceTree = "<group>"; };
+		092477481C85E439006E0447 /* marzo12y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo12y2016.txt; sourceTree = "<group>"; };
+		092477491C85E439006E0447 /* marzo13y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo13y2016_en.txt; sourceTree = "<group>"; };
+		0924774A1C85E439006E0447 /* marzo13y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo13y2016_fr.txt; sourceTree = "<group>"; };
+		0924774B1C85E439006E0447 /* marzo13y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo13y2016.txt; sourceTree = "<group>"; };
+		0924774C1C85E439006E0447 /* marzo14y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo14y2016_en.txt; sourceTree = "<group>"; };
+		0924774D1C85E439006E0447 /* marzo14y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo14y2016_fr.txt; sourceTree = "<group>"; };
+		0924774E1C85E439006E0447 /* marzo14y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo14y2016.txt; sourceTree = "<group>"; };
+		0924774F1C85E439006E0447 /* marzo15y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo15y2016_en.txt; sourceTree = "<group>"; };
+		092477501C85E439006E0447 /* marzo15y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo15y2016_fr.txt; sourceTree = "<group>"; };
+		092477511C85E439006E0447 /* marzo15y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo15y2016.txt; sourceTree = "<group>"; };
+		092477521C85E439006E0447 /* marzo16y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo16y2016_en.txt; sourceTree = "<group>"; };
+		092477531C85E439006E0447 /* marzo16y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo16y2016_fr.txt; sourceTree = "<group>"; };
+		092477541C85E439006E0447 /* marzo16y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo16y2016.txt; sourceTree = "<group>"; };
+		092477551C85E439006E0447 /* marzo17y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo17y2016_en.txt; sourceTree = "<group>"; };
+		092477561C85E439006E0447 /* marzo17y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo17y2016_fr.txt; sourceTree = "<group>"; };
+		092477571C85E439006E0447 /* marzo17y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo17y2016.txt; sourceTree = "<group>"; };
+		092477581C85E439006E0447 /* marzo18y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo18y2016_en.txt; sourceTree = "<group>"; };
+		092477591C85E439006E0447 /* marzo18y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo18y2016_fr.txt; sourceTree = "<group>"; };
+		0924775A1C85E439006E0447 /* marzo18y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo18y2016.txt; sourceTree = "<group>"; };
+		0924775B1C85E439006E0447 /* marzo19y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo19y2016_en.txt; sourceTree = "<group>"; };
+		0924775C1C85E439006E0447 /* marzo19y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo19y2016_fr.txt; sourceTree = "<group>"; };
+		0924775D1C85E439006E0447 /* marzo19y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo19y2016.txt; sourceTree = "<group>"; };
+		0924775E1C85E439006E0447 /* marzo20y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo20y2016_en.txt; sourceTree = "<group>"; };
+		0924775F1C85E439006E0447 /* marzo20y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo20y2016_fr.txt; sourceTree = "<group>"; };
+		092477601C85E439006E0447 /* marzo20y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo20y2016.txt; sourceTree = "<group>"; };
+		092477611C85E439006E0447 /* marzo21y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo21y2016_en.txt; sourceTree = "<group>"; };
+		092477621C85E439006E0447 /* marzo21y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo21y2016_fr.txt; sourceTree = "<group>"; };
+		092477631C85E439006E0447 /* marzo21y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo21y2016.txt; sourceTree = "<group>"; };
+		092477641C85E439006E0447 /* marzo22y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo22y2016_en.txt; sourceTree = "<group>"; };
+		092477651C85E439006E0447 /* marzo22y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo22y2016_fr.txt; sourceTree = "<group>"; };
+		092477661C85E439006E0447 /* marzo22y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo22y2016.txt; sourceTree = "<group>"; };
+		092477671C85E439006E0447 /* marzo23y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo23y2016_en.txt; sourceTree = "<group>"; };
+		092477681C85E439006E0447 /* marzo23y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo23y2016_fr.txt; sourceTree = "<group>"; };
+		092477691C85E439006E0447 /* marzo23y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo23y2016.txt; sourceTree = "<group>"; };
+		0924776A1C85E439006E0447 /* marzo24y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo24y2016_en.txt; sourceTree = "<group>"; };
+		0924776B1C85E439006E0447 /* marzo24y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo24y2016_fr.txt; sourceTree = "<group>"; };
+		0924776C1C85E439006E0447 /* marzo24y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo24y2016.txt; sourceTree = "<group>"; };
+		0924776D1C85E439006E0447 /* marzo25y2016 copia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "marzo25y2016 copia.txt"; sourceTree = "<group>"; };
+		0924776E1C85E439006E0447 /* marzo25y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo25y2016_en.txt; sourceTree = "<group>"; };
+		0924776F1C85E439006E0447 /* marzo25y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo25y2016_fr.txt; sourceTree = "<group>"; };
+		092477701C85E439006E0447 /* marzo25y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo25y2016.txt; sourceTree = "<group>"; };
+		092477711C85E43A006E0447 /* marzo26y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo26y2016_en.txt; sourceTree = "<group>"; };
+		092477721C85E43A006E0447 /* marzo26y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo26y2016_fr.txt; sourceTree = "<group>"; };
+		092477731C85E43A006E0447 /* marzo26y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo26y2016.txt; sourceTree = "<group>"; };
+		092477741C85E43A006E0447 /* marzo27y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo27y2016_en.txt; sourceTree = "<group>"; };
+		092477751C85E43A006E0447 /* marzo27y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo27y2016_fr.txt; sourceTree = "<group>"; };
+		092477761C85E43A006E0447 /* marzo27y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo27y2016.txt; sourceTree = "<group>"; };
+		092477771C85E43A006E0447 /* marzo28y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo28y2016_en.txt; sourceTree = "<group>"; };
+		092477781C85E43A006E0447 /* marzo28y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo28y2016_fr.txt; sourceTree = "<group>"; };
+		092477791C85E43A006E0447 /* marzo28y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo28y2016.txt; sourceTree = "<group>"; };
+		0924777A1C85E43A006E0447 /* marzo29y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo29y2016_en.txt; sourceTree = "<group>"; };
+		0924777B1C85E43A006E0447 /* marzo29y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo29y2016_fr.txt; sourceTree = "<group>"; };
+		0924777C1C85E43A006E0447 /* marzo29y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo29y2016.txt; sourceTree = "<group>"; };
+		0924777D1C85E43A006E0447 /* marzo30y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo30y2016_en.txt; sourceTree = "<group>"; };
+		0924777E1C85E43A006E0447 /* marzo30y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo30y2016_fr.txt; sourceTree = "<group>"; };
+		0924777F1C85E43A006E0447 /* marzo30y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo30y2016.txt; sourceTree = "<group>"; };
+		092477801C85E43A006E0447 /* marzo31y2016_en.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo31y2016_en.txt; sourceTree = "<group>"; };
+		092477811C85E43A006E0447 /* marzo31y2016_fr.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo31y2016_fr.txt; sourceTree = "<group>"; };
+		092477821C85E43A006E0447 /* marzo31y2016.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marzo31y2016.txt; sourceTree = "<group>"; };
+		092477F11C8A0FAA006E0447 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		092477F21C8A0FAA006E0447 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		092477F31C8A0FAA006E0447 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		092477F41C8A0FAA006E0447 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		092477F51C8A0FAA006E0447 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		092477F81C8FC4D5006E0447 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		09281DBC1B57FC570086FF0F /* Creed a sus profetas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creed a sus profetas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09281DC01B57FC570086FF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09281DC11B57FC570086FF0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -441,6 +661,7 @@
 		09281DB31B57FC570086FF0F = {
 			isa = PBXGroup;
 			children = (
+				092477F81C8FC4D5006E0447 /* PrefixHeader.pch */,
 				09554FAC1C6BE2130075E1D4 /* BHPTableViewCell.h */,
 				09554FAD1C6BE2130075E1D4 /* BHPTableViewCell.m */,
 				09554FAE1C6BE2130075E1D4 /* BHPTableViewCell.xib */,
@@ -488,6 +709,11 @@
 		09281DBE1B57FC570086FF0F /* Creed a sus profetas */ = {
 			isa = PBXGroup;
 			children = (
+				092477F11C8A0FAA006E0447 /* Defines.h */,
+				092477F21C8A0FAA006E0447 /* LanguageManager.h */,
+				092477F31C8A0FAA006E0447 /* LanguageManager.m */,
+				092477F41C8A0FAA006E0447 /* NSBundle+Language.h */,
+				092477F51C8A0FAA006E0447 /* NSBundle+Language.m */,
 				09F2017A1C3B263700EAC89A /* 2016Believe */,
 				09C1761C1BCD5A5900C7B7A7 /* LoadingView.h */,
 				09C1761D1BCD5A5900C7B7A7 /* LoadingView.m */,
@@ -572,6 +798,112 @@
 		09F2017A1C3B263700EAC89A /* 2016Believe */ = {
 			isa = PBXGroup;
 			children = (
+				092477191C85E439006E0447 /* abril1y2016_en.txt */,
+				0924771A1C85E439006E0447 /* abril1y2016_fr.txt */,
+				0924771B1C85E439006E0447 /* abril1y2016.txt */,
+				0924771C1C85E439006E0447 /* abril2y2016_en.txt */,
+				0924771D1C85E439006E0447 /* abril2y2016_fr.txt */,
+				0924771E1C85E439006E0447 /* abril2y2016.txt */,
+				0924771F1C85E439006E0447 /* febrero28y2016_en.txt */,
+				092477201C85E439006E0447 /* febrero28y2016_fr.txt */,
+				092477211C85E439006E0447 /* febrero28y2016.txt */,
+				092477221C85E439006E0447 /* febrero29y2016_en.txt */,
+				092477231C85E439006E0447 /* febrero29y2016_fr.txt */,
+				092477241C85E439006E0447 /* febrero29y2016.txt */,
+				092477251C85E439006E0447 /* marzo1y2016_en.txt */,
+				092477261C85E439006E0447 /* marzo1y2016_fr.txt */,
+				092477271C85E439006E0447 /* marzo1y2016.txt */,
+				092477281C85E439006E0447 /* marzo2y2016_en.txt */,
+				092477291C85E439006E0447 /* marzo2y2016_fr.txt */,
+				0924772A1C85E439006E0447 /* marzo2y2016.txt */,
+				0924772B1C85E439006E0447 /* marzo3y2016_en.txt */,
+				0924772C1C85E439006E0447 /* marzo3y2016_fr.txt */,
+				0924772D1C85E439006E0447 /* marzo3y2016.txt */,
+				0924772E1C85E439006E0447 /* marzo4y2016_en.txt */,
+				0924772F1C85E439006E0447 /* marzo4y2016_fr.txt */,
+				092477301C85E439006E0447 /* marzo4y2016.txt */,
+				092477311C85E439006E0447 /* marzo5y2016_en.txt */,
+				092477321C85E439006E0447 /* marzo5y2016_fr.txt */,
+				092477331C85E439006E0447 /* marzo5y2016.txt */,
+				092477341C85E439006E0447 /* marzo6y2016_en.txt */,
+				092477351C85E439006E0447 /* marzo6y2016_fr.txt */,
+				092477361C85E439006E0447 /* marzo6y2016.txt */,
+				092477371C85E439006E0447 /* marzo7y2016_en.txt */,
+				092477381C85E439006E0447 /* marzo7y2016_fr.txt */,
+				092477391C85E439006E0447 /* marzo7y2016.txt */,
+				0924773A1C85E439006E0447 /* marzo8y2016_en.txt */,
+				0924773B1C85E439006E0447 /* marzo8y2016_fr.txt */,
+				0924773C1C85E439006E0447 /* marzo8y2016.txt */,
+				0924773D1C85E439006E0447 /* marzo9y2016_en.txt */,
+				0924773E1C85E439006E0447 /* marzo9y2016_fr.txt */,
+				0924773F1C85E439006E0447 /* marzo9y2016.txt */,
+				092477401C85E439006E0447 /* marzo10y2016_en.txt */,
+				092477411C85E439006E0447 /* marzo10y2016_fr.txt */,
+				092477421C85E439006E0447 /* marzo10y2016.txt */,
+				092477431C85E439006E0447 /* marzo11y2016_en.txt */,
+				092477441C85E439006E0447 /* marzo11y2016_fr.txt */,
+				092477451C85E439006E0447 /* marzo11y2016.txt */,
+				092477461C85E439006E0447 /* marzo12y2016_en.txt */,
+				092477471C85E439006E0447 /* marzo12y2016_fr.txt */,
+				092477481C85E439006E0447 /* marzo12y2016.txt */,
+				092477491C85E439006E0447 /* marzo13y2016_en.txt */,
+				0924774A1C85E439006E0447 /* marzo13y2016_fr.txt */,
+				0924774B1C85E439006E0447 /* marzo13y2016.txt */,
+				0924774C1C85E439006E0447 /* marzo14y2016_en.txt */,
+				0924774D1C85E439006E0447 /* marzo14y2016_fr.txt */,
+				0924774E1C85E439006E0447 /* marzo14y2016.txt */,
+				0924774F1C85E439006E0447 /* marzo15y2016_en.txt */,
+				092477501C85E439006E0447 /* marzo15y2016_fr.txt */,
+				092477511C85E439006E0447 /* marzo15y2016.txt */,
+				092477521C85E439006E0447 /* marzo16y2016_en.txt */,
+				092477531C85E439006E0447 /* marzo16y2016_fr.txt */,
+				092477541C85E439006E0447 /* marzo16y2016.txt */,
+				092477551C85E439006E0447 /* marzo17y2016_en.txt */,
+				092477561C85E439006E0447 /* marzo17y2016_fr.txt */,
+				092477571C85E439006E0447 /* marzo17y2016.txt */,
+				092477581C85E439006E0447 /* marzo18y2016_en.txt */,
+				092477591C85E439006E0447 /* marzo18y2016_fr.txt */,
+				0924775A1C85E439006E0447 /* marzo18y2016.txt */,
+				0924775B1C85E439006E0447 /* marzo19y2016_en.txt */,
+				0924775C1C85E439006E0447 /* marzo19y2016_fr.txt */,
+				0924775D1C85E439006E0447 /* marzo19y2016.txt */,
+				0924775E1C85E439006E0447 /* marzo20y2016_en.txt */,
+				0924775F1C85E439006E0447 /* marzo20y2016_fr.txt */,
+				092477601C85E439006E0447 /* marzo20y2016.txt */,
+				092477611C85E439006E0447 /* marzo21y2016_en.txt */,
+				092477621C85E439006E0447 /* marzo21y2016_fr.txt */,
+				092477631C85E439006E0447 /* marzo21y2016.txt */,
+				092477641C85E439006E0447 /* marzo22y2016_en.txt */,
+				092477651C85E439006E0447 /* marzo22y2016_fr.txt */,
+				092477661C85E439006E0447 /* marzo22y2016.txt */,
+				092477671C85E439006E0447 /* marzo23y2016_en.txt */,
+				092477681C85E439006E0447 /* marzo23y2016_fr.txt */,
+				092477691C85E439006E0447 /* marzo23y2016.txt */,
+				0924776A1C85E439006E0447 /* marzo24y2016_en.txt */,
+				0924776B1C85E439006E0447 /* marzo24y2016_fr.txt */,
+				0924776C1C85E439006E0447 /* marzo24y2016.txt */,
+				0924776D1C85E439006E0447 /* marzo25y2016 copia.txt */,
+				0924776E1C85E439006E0447 /* marzo25y2016_en.txt */,
+				0924776F1C85E439006E0447 /* marzo25y2016_fr.txt */,
+				092477701C85E439006E0447 /* marzo25y2016.txt */,
+				092477711C85E43A006E0447 /* marzo26y2016_en.txt */,
+				092477721C85E43A006E0447 /* marzo26y2016_fr.txt */,
+				092477731C85E43A006E0447 /* marzo26y2016.txt */,
+				092477741C85E43A006E0447 /* marzo27y2016_en.txt */,
+				092477751C85E43A006E0447 /* marzo27y2016_fr.txt */,
+				092477761C85E43A006E0447 /* marzo27y2016.txt */,
+				092477771C85E43A006E0447 /* marzo28y2016_en.txt */,
+				092477781C85E43A006E0447 /* marzo28y2016_fr.txt */,
+				092477791C85E43A006E0447 /* marzo28y2016.txt */,
+				0924777A1C85E43A006E0447 /* marzo29y2016_en.txt */,
+				0924777B1C85E43A006E0447 /* marzo29y2016_fr.txt */,
+				0924777C1C85E43A006E0447 /* marzo29y2016.txt */,
+				0924777D1C85E43A006E0447 /* marzo30y2016_en.txt */,
+				0924777E1C85E43A006E0447 /* marzo30y2016_fr.txt */,
+				0924777F1C85E43A006E0447 /* marzo30y2016.txt */,
+				092477801C85E43A006E0447 /* marzo31y2016_en.txt */,
+				092477811C85E43A006E0447 /* marzo31y2016_fr.txt */,
+				092477821C85E43A006E0447 /* marzo31y2016.txt */,
 				09554F2E1C6BDFBD0075E1D4 /* febrero7y2016_en.txt */,
 				09554F2F1C6BDFBD0075E1D4 /* febrero7y2016_fr.txt */,
 				09554F301C6BDFBD0075E1D4 /* febrero7y2016.txt */,
@@ -765,37 +1097,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092477C81C85E43A006E0447 /* marzo20y2016_en.txt in Resources */,
+				092477A61C85E43A006E0447 /* marzo8y2016.txt in Resources */,
 				090AD2861C6709EB006625AF /* dadamedium.otf in Resources */,
 				09C604451C50586100A67328 /* enero30y2016.txt in Resources */,
 				09C604311C50586100A67328 /* enero24y2016_en.txt in Resources */,
+				092477DB1C85E43A006E0447 /* marzo26y2016_en.txt in Resources */,
 				090AD2501C6705C2006625AF /* febrero5y2016_en.txt in Resources */,
+				092477B71C85E43A006E0447 /* marzo14y2016_fr.txt in Resources */,
 				09554F961C6BDFBE0075E1D4 /* febrero20y2016.txt in Resources */,
 				09554F7B1C6BDFBE0075E1D4 /* febrero11y2016.txt in Resources */,
 				09554F7E1C6BDFBE0075E1D4 /* febrero12y2016.txt in Resources */,
 				09554F721C6BDFBE0075E1D4 /* febrero8y2016.txt in Resources */,
 				090AD2481C6705C2006625AF /* febrero2y2016_fr.txt in Resources */,
+				092477B31C85E43A006E0447 /* marzo13y2016_en.txt in Resources */,
 				09C6043F1C50586100A67328 /* enero28y2016.txt in Resources */,
+				092477BA1C85E43A006E0447 /* marzo15y2016_fr.txt in Resources */,
 				090AD2491C6705C2006625AF /* febrero2y2016.txt in Resources */,
+				092477B81C85E43A006E0447 /* marzo14y2016.txt in Resources */,
+				092477C11C85E43A006E0447 /* marzo17y2016.txt in Resources */,
 				090AD2531C6705C2006625AF /* febrero6y2016_en.txt in Resources */,
+				092477B11C85E43A006E0447 /* marzo12y2016_fr.txt in Resources */,
 				090AD2511C6705C2006625AF /* febrero5y2016_fr.txt in Resources */,
+				0924779B1C85E43A006E0447 /* marzo5y2016_en.txt in Resources */,
 				09554F8A1C6BDFBE0075E1D4 /* febrero16y2016.txt in Resources */,
+				092477AB1C85E43A006E0447 /* marzo10y2016_fr.txt in Resources */,
 				09C6043B1C50586100A67328 /* enero27y2016_fr.txt in Resources */,
 				09554F751C6BDFBE0075E1D4 /* febrero9y2016.txt in Resources */,
+				092477C21C85E43A006E0447 /* marzo18y2016_en.txt in Resources */,
 				09554F741C6BDFBE0075E1D4 /* febrero9y2016_fr.txt in Resources */,
+				092477E41C85E43A006E0447 /* marzo29y2016_en.txt in Resources */,
+				092477991C85E43A006E0447 /* marzo4y2016_fr.txt in Resources */,
+				092477D81C85E43A006E0447 /* marzo25y2016_en.txt in Resources */,
 				09554FB31C6BE4C30075E1D4 /* biblia01.png in Resources */,
+				092477E51C85E43A006E0447 /* marzo29y2016_fr.txt in Resources */,
+				092477C01C85E43A006E0447 /* marzo17y2016_fr.txt in Resources */,
 				09C604151C50572800A67328 /* imagen8.jpg in Resources */,
+				092477BD1C85E43A006E0447 /* marzo16y2016_fr.txt in Resources */,
 				09281DCB1B57FC570086FF0F /* Main.storyboard in Resources */,
 				090AD28B1C6709EB006625AF /* oswald.ttf in Resources */,
 				09554F781C6BDFBE0075E1D4 /* febrero10y2016.txt in Resources */,
+				092477AC1C85E43A006E0447 /* marzo10y2016.txt in Resources */,
+				092477AA1C85E43A006E0447 /* marzo10y2016_en.txt in Resources */,
+				092477BF1C85E43A006E0447 /* marzo17y2016_en.txt in Resources */,
+				092477AF1C85E43A006E0447 /* marzo11y2016.txt in Resources */,
 				09C6040E1C50572800A67328 /* imagen1.jpg in Resources */,
 				090AD28C1C6709EB006625AF /* oswaldl.ttf in Resources */,
 				09C6043D1C50586100A67328 /* enero28y2016_en.txt in Resources */,
 				09F204541C3CAABC00EAC89A /* Localizable.strings in Resources */,
+				092477E31C85E43A006E0447 /* marzo28y2016.txt in Resources */,
+				092477891C85E43A006E0447 /* febrero28y2016_en.txt in Resources */,
+				092477D01C85E43A006E0447 /* marzo22y2016.txt in Resources */,
 				09C604111C50572800A67328 /* imagen4.jpg in Resources */,
+				092477A11C85E43A006E0447 /* marzo7y2016_en.txt in Resources */,
+				092477D31C85E43A006E0447 /* marzo23y2016.txt in Resources */,
 				09554F921C6BDFBE0075E1D4 /* febrero19y2016_fr.txt in Resources */,
 				090AD2931C6848E2006625AF /* febrero4y2016_fr.txt in Resources */,
 				09554F6D1C6BDFBE0075E1D4 /* febrero7y2016_en.txt in Resources */,
 				09554FA91C6BDFBE0075E1D4 /* febrero27y2016_en.txt in Resources */,
+				092477E61C85E43A006E0447 /* marzo29y2016.txt in Resources */,
+				092477831C85E43A006E0447 /* abril1y2016_en.txt in Resources */,
 				09554F761C6BDFBE0075E1D4 /* febrero10y2016_en.txt in Resources */,
 				09554F771C6BDFBE0075E1D4 /* febrero10y2016_fr.txt in Resources */,
 				09281DD01B57FC570086FF0F /* LaunchScreen.xib in Resources */,
@@ -803,95 +1164,166 @@
 				090AD2881C6709EB006625AF /* hermesthin.ttf in Resources */,
 				090AD2541C6705C2006625AF /* febrero6y2016_fr.txt in Resources */,
 				09554F9C1C6BDFBE0075E1D4 /* febrero22y2016.txt in Resources */,
+				092477DE1C85E43A006E0447 /* marzo27y2016_en.txt in Resources */,
 				09554FA41C6BDFBE0075E1D4 /* febrero25y2016_fr.txt in Resources */,
+				092477B41C85E43A006E0447 /* marzo13y2016_fr.txt in Resources */,
 				09554FA51C6BDFBE0075E1D4 /* febrero25y2016.txt in Resources */,
+				092477A31C85E43A006E0447 /* marzo7y2016.txt in Resources */,
 				09C604341C50586100A67328 /* enero25y2016_en.txt in Resources */,
+				092477EC1C85E43A006E0447 /* marzo31y2016.txt in Resources */,
 				090AD28F1C6709EB006625AF /* ruibold.otf in Resources */,
+				092477B21C85E43A006E0447 /* marzo12y2016.txt in Resources */,
 				09554F931C6BDFBE0075E1D4 /* febrero19y2016.txt in Resources */,
 				09C604101C50572800A67328 /* imagen3.jpg in Resources */,
 				09C604351C50586100A67328 /* enero25y2016_fr.txt in Resources */,
+				0924778C1C85E43A006E0447 /* febrero29y2016_en.txt in Resources */,
+				092477B61C85E43A006E0447 /* marzo14y2016_en.txt in Resources */,
 				09F204511C3C2AF700EAC89A /* Settings-50.png in Resources */,
+				092477A51C85E43A006E0447 /* marzo8y2016_fr.txt in Resources */,
 				09C176221BCD6FF200C7B7A7 /* icono.png in Resources */,
+				0924779D1C85E43A006E0447 /* marzo5y2016.txt in Resources */,
 				09554FA21C6BDFBE0075E1D4 /* febrero24y2016.txt in Resources */,
+				092477971C85E43A006E0447 /* marzo3y2016.txt in Resources */,
 				090AD2521C6705C2006625AF /* febrero5y2016.txt in Resources */,
+				0924779C1C85E43A006E0447 /* marzo5y2016_fr.txt in Resources */,
 				09554FB01C6BE2130075E1D4 /* BHPTableViewCell.xib in Resources */,
 				09C604381C50586100A67328 /* enero26y2016_en.txt in Resources */,
+				092477DA1C85E43A006E0447 /* marzo25y2016.txt in Resources */,
 				09C604461C50586100A67328 /* enero31y2016_en.txt in Resources */,
 				09C604161C50572800A67328 /* imagen9.jpg in Resources */,
 				090AD24F1C6705C2006625AF /* febrero4y2016.txt in Resources */,
 				09554F9B1C6BDFBE0075E1D4 /* febrero22y2016_fr.txt in Resources */,
 				09554FA81C6BDFBE0075E1D4 /* febrero26y2016.txt in Resources */,
 				09C604171C50572800A67328 /* imagen10.jpg in Resources */,
+				0924779E1C85E43A006E0447 /* marzo6y2016_en.txt in Resources */,
 				09554F9D1C6BDFBE0075E1D4 /* febrero23y2016_en.txt in Resources */,
 				09281DCD1B57FC570086FF0F /* Images.xcassets in Resources */,
 				09C6043A1C50586100A67328 /* enero27y2016_en.txt in Resources */,
+				092477E21C85E43A006E0447 /* marzo28y2016_fr.txt in Resources */,
+				092477C41C85E43A006E0447 /* marzo18y2016.txt in Resources */,
+				092477E91C85E43A006E0447 /* marzo30y2016.txt in Resources */,
+				092477961C85E43A006E0447 /* marzo3y2016_fr.txt in Resources */,
 				09C604421C50586100A67328 /* enero29y2016.txt in Resources */,
+				0924778D1C85E43A006E0447 /* febrero29y2016_fr.txt in Resources */,
 				09554FB41C6BE4C30075E1D4 /* Biblia02.png in Resources */,
 				09C604371C50586100A67328 /* enero26y2016.txt in Resources */,
 				09554F9E1C6BDFBE0075E1D4 /* febrero23y2016_fr.txt in Resources */,
 				09554FC11C6CE83E0075E1D4 /* porfrances1.jpg in Resources */,
+				092477D61C85E43A006E0447 /* marzo24y2016.txt in Resources */,
 				090AD24C1C6705C2006625AF /* febrero3y2016.txt in Resources */,
 				09C6043C1C50586100A67328 /* enero27y2016.txt in Resources */,
 				09C604181C50572800A67328 /* imagen11.jpg in Resources */,
 				09554F8F1C6BDFBE0075E1D4 /* febrero18y2016_fr.txt in Resources */,
 				09554F811C6BDFBE0075E1D4 /* febrero13y2016.txt in Resources */,
 				09C604401C50586100A67328 /* enero29y2016_en.txt in Resources */,
+				092477921C85E43A006E0447 /* marzo2y2016_en.txt in Resources */,
+				092477951C85E43A006E0447 /* marzo3y2016_en.txt in Resources */,
 				09554F6F1C6BDFBE0075E1D4 /* febrero7y2016.txt in Resources */,
 				09554FA31C6BDFBE0075E1D4 /* febrero25y2016_en.txt in Resources */,
 				09554FAB1C6BDFBE0075E1D4 /* febrero27y2016.txt in Resources */,
 				09554F821C6BDFBE0075E1D4 /* febrero14y2016_en.txt in Resources */,
 				09C604131C50572800A67328 /* imagen6.jpg in Resources */,
+				092477B01C85E43A006E0447 /* marzo12y2016_en.txt in Resources */,
 				09C604141C50572800A67328 /* imagen7.jpg in Resources */,
+				092477E81C85E43A006E0447 /* marzo30y2016_fr.txt in Resources */,
+				092477DD1C85E43A006E0447 /* marzo26y2016.txt in Resources */,
+				0924778A1C85E43A006E0447 /* febrero28y2016_fr.txt in Resources */,
 				09554F9F1C6BDFBE0075E1D4 /* febrero23y2016.txt in Resources */,
+				092477C51C85E43A006E0447 /* marzo19y2016_en.txt in Resources */,
 				09554F891C6BDFBE0075E1D4 /* febrero16y2016_fr.txt in Resources */,
+				092477D41C85E43A006E0447 /* marzo24y2016_en.txt in Resources */,
+				092477A91C85E43A006E0447 /* marzo9y2016.txt in Resources */,
 				090AD2831C6709EB006625AF /* capsula.ttf in Resources */,
+				092477941C85E43A006E0447 /* marzo2y2016.txt in Resources */,
+				092477EB1C85E43A006E0447 /* marzo31y2016_fr.txt in Resources */,
+				092477E01C85E43A006E0447 /* marzo27y2016.txt in Resources */,
+				092477A41C85E43A006E0447 /* marzo8y2016_en.txt in Resources */,
 				09C7D53D1C3DF55C00EC059F /* Speech Bubble-50.png in Resources */,
 				09554F791C6BDFBE0075E1D4 /* febrero11y2016_en.txt in Resources */,
+				0924778B1C85E43A006E0447 /* febrero28y2016.txt in Resources */,
+				092477D91C85E43A006E0447 /* marzo25y2016_fr.txt in Resources */,
+				092477D21C85E43A006E0447 /* marzo23y2016_fr.txt in Resources */,
 				09554F991C6BDFBE0075E1D4 /* febrero21y2016.txt in Resources */,
+				092477841C85E43A006E0447 /* abril1y2016_fr.txt in Resources */,
 				09554FA11C6BDFBE0075E1D4 /* febrero24y2016_fr.txt in Resources */,
 				09C604391C50586100A67328 /* enero26y2016_fr.txt in Resources */,
+				092477CA1C85E43A006E0447 /* marzo20y2016.txt in Resources */,
 				09554F7D1C6BDFBE0075E1D4 /* febrero12y2016_fr.txt in Resources */,
 				09554F851C6BDFBE0075E1D4 /* febrero15y2016_en.txt in Resources */,
+				092477C91C85E43A006E0447 /* marzo20y2016_fr.txt in Resources */,
+				092477AE1C85E43A006E0447 /* marzo11y2016_fr.txt in Resources */,
+				092477CC1C85E43A006E0447 /* marzo21y2016_fr.txt in Resources */,
+				092477D51C85E43A006E0447 /* marzo24y2016_fr.txt in Resources */,
 				09554F861C6BDFBE0075E1D4 /* febrero15y2016_fr.txt in Resources */,
 				09C6040F1C50572800A67328 /* imagen2.jpg in Resources */,
 				09C604431C50586100A67328 /* enero30y2016_en.txt in Resources */,
+				092477CE1C85E43A006E0447 /* marzo22y2016_en.txt in Resources */,
 				09554F7F1C6BDFBE0075E1D4 /* febrero13y2016_en.txt in Resources */,
 				09554FAA1C6BDFBE0075E1D4 /* febrero27y2016_fr.txt in Resources */,
 				09554FA71C6BDFBE0075E1D4 /* febrero26y2016_fr.txt in Resources */,
 				090AD24A1C6705C2006625AF /* febrero3y2016_en.txt in Resources */,
+				092477851C85E43A006E0447 /* abril1y2016.txt in Resources */,
 				090AD28A1C6709EB006625AF /* mod20.TTF in Resources */,
 				090AD2441C6705C2006625AF /* febrero1y2016_en.txt in Resources */,
+				092477E71C85E43A006E0447 /* marzo30y2016_en.txt in Resources */,
 				09554FA01C6BDFBE0075E1D4 /* febrero24y2016_en.txt in Resources */,
+				092477A71C85E43A006E0447 /* marzo9y2016_en.txt in Resources */,
 				09C604361C50586100A67328 /* enero25y2016.txt in Resources */,
+				0924778E1C85E43A006E0447 /* febrero29y2016.txt in Resources */,
 				09554F7A1C6BDFBE0075E1D4 /* febrero11y2016_fr.txt in Resources */,
 				09C604121C50572800A67328 /* imagen5.jpg in Resources */,
+				092477CB1C85E43A006E0447 /* marzo21y2016_en.txt in Resources */,
 				090AD2461C6705C2006625AF /* febrero1y2016.txt in Resources */,
+				092477861C85E43A006E0447 /* abril2y2016_en.txt in Resources */,
 				090AD2921C6848E2006625AF /* febrero3y2016_fr.txt in Resources */,
 				09554F831C6BDFBE0075E1D4 /* febrero14y2016_fr.txt in Resources */,
+				092477881C85E43A006E0447 /* abril2y2016.txt in Resources */,
 				09554F711C6BDFBE0075E1D4 /* febrero8y2016_fr.txt in Resources */,
+				092477C61C85E43A006E0447 /* marzo19y2016_fr.txt in Resources */,
+				092477901C85E43A006E0447 /* marzo1y2016_fr.txt in Resources */,
+				0924779F1C85E43A006E0447 /* marzo6y2016_fr.txt in Resources */,
+				092477BB1C85E43A006E0447 /* marzo15y2016.txt in Resources */,
+				092477C71C85E43A006E0447 /* marzo19y2016.txt in Resources */,
 				090AD28D1C6709EB006625AF /* poster.ttf in Resources */,
 				09554F841C6BDFBE0075E1D4 /* febrero14y2016.txt in Resources */,
 				09554F701C6BDFBE0075E1D4 /* febrero8y2016_en.txt in Resources */,
 				09554FC21C6CE83E0075E1D4 /* poringles1.jpg in Resources */,
 				09554F7C1C6BDFBE0075E1D4 /* febrero12y2016_en.txt in Resources */,
+				092477B51C85E43A006E0447 /* marzo13y2016.txt in Resources */,
 				09554F901C6BDFBE0075E1D4 /* febrero18y2016.txt in Resources */,
 				090AD2471C6705C2006625AF /* febrero2y2016_en.txt in Resources */,
 				09C6043E1C50586100A67328 /* enero28y2016_fr.txt in Resources */,
+				092477981C85E43A006E0447 /* marzo4y2016_en.txt in Resources */,
 				09F202DF1C3B7FA500EAC89A /* Literature-50.png in Resources */,
 				09554F9A1C6BDFBE0075E1D4 /* febrero22y2016_en.txt in Resources */,
 				09554F951C6BDFBE0075E1D4 /* febrero20y2016_fr.txt in Resources */,
+				092477871C85E43A006E0447 /* abril2y2016_fr.txt in Resources */,
+				092477A21C85E43A006E0447 /* marzo7y2016_fr.txt in Resources */,
+				092477AD1C85E43A006E0447 /* marzo11y2016_en.txt in Resources */,
 				090AD28E1C6709EB006625AF /* rui.otf in Resources */,
+				092477E11C85E43A006E0447 /* marzo28y2016_en.txt in Resources */,
 				09554F8D1C6BDFBE0075E1D4 /* febrero17y2016.txt in Resources */,
+				092477A01C85E43A006E0447 /* marzo6y2016.txt in Resources */,
 				09554F881C6BDFBE0075E1D4 /* febrero16y2016_en.txt in Resources */,
 				09554FA61C6BDFBE0075E1D4 /* febrero26y2016_en.txt in Resources */,
 				090AD2821C6709EB006625AF /* antonio.ttf in Resources */,
 				09554F941C6BDFBE0075E1D4 /* febrero20y2016_en.txt in Resources */,
 				09554F911C6BDFBE0075E1D4 /* febrero19y2016_en.txt in Resources */,
 				09554F971C6BDFBE0075E1D4 /* febrero21y2016_en.txt in Resources */,
+				092477DC1C85E43A006E0447 /* marzo26y2016_fr.txt in Resources */,
 				09C604331C50586100A67328 /* enero24y2016.txt in Resources */,
+				092477C31C85E43A006E0447 /* marzo18y2016_fr.txt in Resources */,
+				0924779A1C85E43A006E0447 /* marzo4y2016.txt in Resources */,
+				092477931C85E43A006E0447 /* marzo2y2016_fr.txt in Resources */,
+				092477B91C85E43A006E0447 /* marzo15y2016_en.txt in Resources */,
+				092477CD1C85E43A006E0447 /* marzo21y2016.txt in Resources */,
+				092477DF1C85E43A006E0447 /* marzo27y2016_fr.txt in Resources */,
+				092477CF1C85E43A006E0447 /* marzo22y2016_fr.txt in Resources */,
+				092477D71C85E43A006E0447 /* marzo25y2016 copia.txt in Resources */,
 				090AD2451C6705C2006625AF /* febrero1y2016_fr.txt in Resources */,
 				09C604321C50586100A67328 /* enero24y2016_fr.txt in Resources */,
 				09554F8E1C6BDFBE0075E1D4 /* febrero18y2016_en.txt in Resources */,
+				092477BC1C85E43A006E0447 /* marzo16y2016_en.txt in Resources */,
 				090AD2841C6709EB006625AF /* codepro.otf in Resources */,
 				09C604411C50586100A67328 /* enero29y2016_fr.txt in Resources */,
 				090AD2551C6705C2006625AF /* febrero6y2016.txt in Resources */,
@@ -903,14 +1335,20 @@
 				09554F981C6BDFBE0075E1D4 /* febrero21y2016_fr.txt in Resources */,
 				09554F801C6BDFBE0075E1D4 /* febrero13y2016_fr.txt in Resources */,
 				090AD2871C6709EB006625AF /* hermes.ttf in Resources */,
+				092477EA1C85E43A006E0447 /* marzo31y2016_en.txt in Resources */,
 				09554F871C6BDFBE0075E1D4 /* febrero15y2016.txt in Resources */,
 				09554F8C1C6BDFBE0075E1D4 /* febrero17y2016_fr.txt in Resources */,
+				0924778F1C85E43A006E0447 /* marzo1y2016_en.txt in Resources */,
 				09C7D5481C3E22F700EC059F /* mail.jpg in Resources */,
+				092477D11C85E43A006E0447 /* marzo23y2016_en.txt in Resources */,
 				09554F6E1C6BDFBE0075E1D4 /* febrero7y2016_fr.txt in Resources */,
 				09C604441C50586100A67328 /* enero30y2016_fr.txt in Resources */,
+				092477A81C85E43A006E0447 /* marzo9y2016_fr.txt in Resources */,
 				090AD24D1C6705C2006625AF /* febrero4y2016_en.txt in Resources */,
 				09C7D54A1C3E9FFF00EC059F /* mail.png in Resources */,
 				09C604471C50586100A67328 /* enero31y2016_fr.txt in Resources */,
+				092477BE1C85E43A006E0447 /* marzo16y2016.txt in Resources */,
+				092477911C85E43A006E0447 /* marzo1y2016.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,6 +1368,7 @@
 			files = (
 				09C7D5461C3E0CFD00EC059F /* MensajeViewController.m in Sources */,
 				09F204991C3D89C800EAC89A /* DetailFavoritoViewController.m in Sources */,
+				092477F71C8A0FAA006E0447 /* NSBundle+Language.m in Sources */,
 				099A38661C49581A00B20827 /* UIImageX.m in Sources */,
 				09281DC81B57FC570086FF0F /* ViewController.m in Sources */,
 				099A38631C493F7900B20827 /* UIScrollCustom.m in Sources */,
@@ -937,6 +1376,7 @@
 				09281E171B580B150086FF0F /* LecturaViewController.m in Sources */,
 				09554FAF1C6BE2130075E1D4 /* BHPTableViewCell.m in Sources */,
 				09C1761E1BCD5A5900C7B7A7 /* LoadingView.m in Sources */,
+				092477F61C8A0FAA006E0447 /* LanguageManager.m in Sources */,
 				0975E0AC1B581A2C00FEB6DA /* OpcionesViewController.m in Sources */,
 				099A38561C48218800B20827 /* ImagenViewController.m in Sources */,
 				09F204961C3D7D2100EAC89A /* FavoritosTableViewController.m in Sources */,
